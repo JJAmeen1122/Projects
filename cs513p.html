@@ -10,14 +10,20 @@
 <body>
     <header class="main-header">
         <h1>🎵 <span id="the"><sup>The</sup></span><span class="header-title">JF Beat</span> </h1>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#latest">Latest Albums</a></li>
-                <li><a href="#trends">Trends</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="search-bar">
+            <nav>
+                <div><ul class="nav-links">
+                    <li><a href="#latest">Latest Albums</a></li>
+                    <li><a href="#trends">Trends</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul></div>
+                 <!-- <form class="d-flex" role="search"> -->
+                    <div class="abc"><input id="searchbar" type="search" placeholder="Search" aria-label="Search"/>
+                     <button  class="searchbuton" type="submit">Search</button></div>
+                <!-- </form> -->
+            </nav>
+        </div>
     </header>
 
     <!-- <section id="latest" class="latest-section">
@@ -37,39 +43,48 @@
     </section> -->
     <!-- <section id="latest" class="section"> -->
         <section id="latest" class="latest-section">
-        <h2 class="blog-headings">Latest Music Albums</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                <h3>Album Title 1</h3>
-                <p>Artist Name</p>
-                <p>Release Date: 2024</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                <h3>Album Title 2</h3>
-                <p>Artist Name</p>
-                <p>Release Date: 2024</p>
-            </div>
-        </div>
-    </section>
+             <fieldset style="border: 1px solid blue;">
+                <legend><h2 class="blog-headings">Latest Music Albums</h2></legend>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                        <h3>Album Title 1</h3>
+                        <p>Artist Name</p>
+                        <p>Release Date: 2024</p>
+                        <button class="readmore" type="menu" >Read More</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                        <h3>Album Title 2</h3>
+                        <p>Artist Name</p>
+                        <p>Release Date: 2024</p>
+                        <button class="readmore" type="menu" >Read More</button>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
         <section id="latest" class="latest-section">
-        <h2 class="blog-headings">Trending Music</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                <h3>Album Title 1</h3>
-                <p>Artist Name</p>
-                <p>Release Date: 2024</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                <h3>Album Title 2</h3>
-                <p>Artist Name</p>
-                <p>Release Date: 2024</p>
-            </div>
-        </div>
-    </section>
+             <fieldset style="border: 1px solid blue;">
+                <legend><h2 class="blog-headings">Music Trends</h2></legend>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                        <h3>Album Title 1</h3>
+                        <p>Artist Name</p>
+                        <p>Release Date: 2024</p>
+                        <button class="readmore" type="menu" >Read More</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                        <h3>Album Title 2</h3>
+                        <p>Artist Name</p>
+                        <p>Release Date: 2024</p>
+                        <button class="readmore" type="menu" >Read More</button>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+   
 
     <section id="trends" class="trends-section">
         <h2>Current Music Trends</h2>
