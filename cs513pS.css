@@ -2,13 +2,14 @@
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #ff7eb3, #ff758c, #ff5252);
+    /* background: linear-gradient(to bottom, #ff7eb3, #ff758c, #ff5252); */
+    background: radial-gradient(circle, #e0eafc, #cfdef3);
     color: #fff;
 }
 
 /* Header */
 .main-header {
-    background: #beb8b8;
+    background: #333;
     text-align: center;
     padding: 1.5rem;
     color: #fff;
@@ -22,7 +23,9 @@
     margin: 0;
     padding: 0;
 }
-
+h1{
+    color: white;
+}
 #the{
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -33,8 +36,12 @@
 .header-title{
     font-size: 50px;
     font-weight: 900px;
-    color: #df832d
+    background: linear-gradient(90deg,  #afccf3, #d1768c,  #8adce2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
 }
+ 
 .nav-links a {
     color: #fff;
     text-decoration: none;
@@ -63,6 +70,13 @@ section {
     padding: 2rem;
     text-align: center;
   }
+
+ .blog-headings{
+    font-size: 35px; 
+    background: linear-gradient(90deg,  #fff, blue,  #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
   
   .card-container {
     display: flex;
@@ -125,7 +139,7 @@ form input, form textarea, form button {
 
 form button {
     background: #ff4786;
-    width: 200px;
+    width: 100%;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
