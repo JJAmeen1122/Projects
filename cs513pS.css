@@ -28,7 +28,8 @@ nav{
     background-image: url("JF.png");
     background-size: cover;
     border-radius: 75px;
-    margin-right: 250px;
+    margin-right: 150px;
+    margin-top: 18px;
      
 }
 
@@ -39,7 +40,7 @@ nav{
     justify-content: baseline;
     gap: 1.5rem;
     margin-top: 150px;
-    margin-left: -250px;
+    margin-left: -300px;
     padding: 0;
 }
 /* .search-bar{
@@ -50,20 +51,12 @@ nav{
 .d-flex{
     justify-content: right;
 }
-#searchbar{
-    margin-top: 145px;
-    margin-left: 50px;
-}
-.search-input{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-
-}
-#searchbutton{
-    width: 300px;
-    height: 30px ;
-    background-color: #4facfe;
+.heading1{
+   
+    padding: 0px 20px;
+    height: 100px;
+    width: 350px;
+  
 }
 #the{
     font-size: 25px;
@@ -79,9 +72,9 @@ nav{
     background: linear-gradient(90deg,  #afccf3, #d1768c,  #8adce2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+    
 }
- 
+
 .nav-links a {
     color: #fff;
     text-decoration: none;
@@ -89,9 +82,37 @@ nav{
 }
 
 .nav-links a:hover {
-    color: #ffeedb;
+    color: #cfdef3;
 }
 
+.searchbar{
+    margin-top: 145px;
+    margin-left: 80px;
+    width: 450px;
+    text-align: right;
+    padding: 0px;
+}
+.search-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.signup{
+    background-color: #fff;
+    padding: 4px 8px;
+    border: 2px outset ;
+    font-size: 15px;
+    /* text-decoration: none; */
+    color: #333;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+     
+}
+a:hover {
+    color: gray;
+}
 /* Sections */
 section {
     padding: 2rem;
