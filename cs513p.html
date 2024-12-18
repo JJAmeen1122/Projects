@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the latest music albums, songs, and trends. A vibrant blog for music lovers!">
+    <meta name="description"
+    content="Explore the latest music albums, songs, and trends. A vibrant blog for music lovers!">
     <title>Music Blog</title>
     <link rel="icon" type="image/x-icon" href="JF.png">
     <link rel="stylesheet" href="cs513pS.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/688af9d3dd.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="main-header">
         <div class="logopic"></div>
-        <div class="heading1"><h1>🎵 <span id="the"><sup>The</sup></span><span class="header-title">JF Beat</span> </h1></div>
         <nav>
+            <h1>🎵 <span id="the"><sup>The</sup></span><span class="header-title">JF Beat</span> </h1>
             <!-- <div class="search-bar"> -->
-                    <ul class="nav-links">
-                        <li><a href="#latest">Latest Albums</a></li>
-                        <li><a href="#trends">Trends</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <!-- <form class="d-flex" role="search"> -->
-                        <!-- </form> -->
-                    <!-- </div> -->
-                
-                    <div  class="searchbar"><input type="search" placeholder="Search" aria-label="Search" class="search-input">
-                        <a class="signup"  href="#" >Sign Up </a>   
-                    </div>
+            <ul class="nav-links">
+                <li><a href="#latest">Latest Albums</a></li>
+                <li><a href="#trends">Trends</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
         </nav>
+        <div class="barbutton"> <button class="signup">Sign up</button>
+            <span class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <div id="searchContainer" class="search-container" style="display:none;">
+                <div class="mainsearch">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+                </div>
+            </div>
+            </div>
+        </div>
     </header>
 
-    <!-- <section id="latest" class="latest-section">
-        <h2>Latest Music Albums & Songs</h2>
-        <div class="album-card">
-            <h3>💿 Midnight Vibes by Artist Name</h3>
-            <p>Release Date: November 15, 2024</p>
-            <p>A soothing blend of acoustic and electronic beats...</p>
-            <a href="#">Read Full Review</a>
-        </div>
-        <div class="album-card">
-            <h3>🎧 Echoes in Time by Band Name</h3>
-            <p>Trending Genre: Synthwave</p>
-            <p>Captivating lyrics and retro-inspired melodies...</p>
-            <a href="#">Read Full Analysis</a>
-        </div>
-    </section> -->
-    <!-- <section id="latest" class="section"> -->
-        <section id="latest" class="latest-section">
-             <fieldset style="border: 1px solid blue;">
-                <legend><h2 class="blog-headings">Latest Music Albums</h2></legend>
-                <div class="card-container">
+
+    <section id="latest" class="latest-section">
+        <fieldset style="border: 1px solid blue;">
+            <legend>
+                <h2 class="blog-headings">Latest Music Albums</h2>
+            </legend>
+            <div class="card-container">
+                <a href="song.html" style="text-decoration: none; color: #fff;">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                        <h3>Album Title 1</h3>
-                        <p>Artist Name</p>
-                        <p>Release Date: 2024</p>
-                        <button class="readmore" type="menu" >Read More</button>
+                        <img src="gif.jpeg" alt="Album Cover" height="200px" width="300px">
+                        <h3>Blinding Lights</h3>
+                        <p>The Weeknd</p>
+                        <p>Rating: 9.8/10</p>
+                        <p>Release Date: 2019</p>
+                        <!-- <button class="readmore" type="menu" onclick="" >Read More</button> -->
                     </div>
+                </a>
+                <a href="song1.html" style="text-decoration: none; color: #fff;">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                        <h3>Album Title 2</h3>
-                        <p>Artist Name</p>
+                        <img src="song1.jpeg" alt="Album Cover" height="200px" width="300px">
+                        <h3>Blinding Lights</h3>
+                        <p>The Weeknd</p>
+                        <p>Rating: 9.8/10</p>
                         <p>Release Date: 2024</p>
-                        <button class="readmore" type="menu" >Read More</button>
+                        <!-- <button class="readmore" type="menu" onclick="" >Read More</button> -->
                     </div>
+                </a>
+                <a href="song1.html" style="text-decoration: none; color: #fff;">
+                    <div class="card">
+                        <img src="upt.jpeg" alt="Album Cover" height="200px" width="300px">
+                        <h3>Uptown Funk</h3>
+                        <p>Mark Ronson ft. Bruno Mars</p>
+                        <p>Rating: 9.6/10</p>
+                        <p>Release Date: 2024</p>
+                        <!-- <button class="readmore" type="menu" onclick="" >Read More</button> -->
+                    </div>
+                </a>
+                <a href="song1.html" style="text-decoration: none; color: #fff;">
+                    <div class="card">
+                        <img src="belevier.jpeg" alt="Album Cover" height="200px" width="300px">
+                        <h3>Blinding Lights</h3>
+                        <p> Imagine Dragons</p>
+                        <p>Rating: 9.4/10</p>
+                        <p>Release Date: 2023</p>
+                        <!-- <button class="readmore" type="menu" onclick="" >Read More</button> -->
+                    </div>
+                </a>
+                <a href="song1.html" style="text-decoration: none; color: #fff;">
+                    <div class="card">
+                        <img src="loss control.jpeg" alt="Album Cover" height="200px" width="300px">
+                        <h3>Loss Control</h3>
+                        <p> Imagine Dragons</p>
+                        <p>Rating: 9.4/10</p>
+                        <p>Release Date: 2023</p>
+                        <!-- <button class="readmore" type="menu" onclick="" >Read More</button> -->
+                    </div>
+                </a>
+
+            </div>
+        </fieldset>
+    </section>
+    <section id="latest" class="latest-section">
+        <fieldset style="border: 1px solid blue;">
+            <legend>
+                <h2 class="blog-headings">Music Trends</h2>
+            </legend>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                    <h3>Album Title 1</h3>
+                    <p>Artist Name</p>
+                    <p>Release Date: 2024</p>
+                    <button class="readmore" type="menu">Read More</button>
                 </div>
-            </fieldset>
-        </section>
-        <section id="latest" class="latest-section">
-             <fieldset style="border: 1px solid blue;">
-                <legend><h2 class="blog-headings">Music Trends</h2></legend>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                        <h3>Album Title 1</h3>
-                        <p>Artist Name</p>
-                        <p>Release Date: 2024</p>
-                        <button class="readmore" type="menu" >Read More</button>
-                    </div>
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300x200" alt="Album Cover">
-                        <h3>Album Title 2</h3>
-                        <p>Artist Name</p>
-                        <p>Release Date: 2024</p>
-                        <button class="readmore" type="menu" >Read More</button>
-                    </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Album Cover">
+                    <h3>Album Title 2</h3>
+                    <p>Artist Name</p>
+                    <p>Release Date: 2024</p>
+                    <button class="readmore" type="menu">Read More</button>
                 </div>
-            </fieldset>
-        </section>
-   
+            </div>
+        </fieldset>
+    </section>
+
 
     <section id="trends" class="trends-section">
         <h2>Current Music Trends</h2>
@@ -106,12 +142,23 @@
 
     <section id="about" class="about-section">
         <h2>About Us</h2>
-        <p>Welcome to Music Vibes Blog! Your go-to source for reviews, insights, and trends in the music world. Join us in celebrating the universal language of music.</p>
+        <p>Welcome to Music Vibes Blog! Your go-to source for reviews, insights, and trends in the music world. Join us
+            in celebrating the universal language of music.</p>
     </section>
 
     <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
+        <div class="footericon">
+            <h2>THE JF BEAT</h2> 
+            <p style="font-size: 16px;">The most trusted Beat in the World</p> <br>
+            <di class="iconss">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </di>
+        </div>
         <form>
+            <h2>Contact Us</h2>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -124,10 +171,65 @@
             <button type="submit">Send</button>
         </form>
     </section>
+    <hr>
 
+    <div class="ratingstar">
+        <h1>Rate Us</h1>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5" title="5 stars">&#9733;</label>
+
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4" title="4 stars">&#9733;</label>
+
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3" title="3 stars">&#9733;</label>
+
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2" title="2 stars">&#9733;</label>
+
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1" title="1 star">&#9733;</label>
+        </div>
+    </div>
     <footer class="main-footer">
         <p>© 2024 Music Vibes Blog. All rights reserved.</p>
     </footer>
-</body>
-</html>
 
+
+
+
+
+    <script>
+        const stars = document.querySelectorAll('.rating input');
+        stars.forEach(star => {
+            star.addEventListener('change', () => {
+                alert(`You rated this music ${star.value} out of 5!`);
+            });
+        });
+    </script>
+<script>
+    // Get elements
+const searchIcon = document.querySelector('.search');
+const searchContainer = document.getElementById('searchContainer');
+
+// Show the search bar when the search icon is clicked
+searchIcon.addEventListener('click', function(event) {
+    // Prevent the event from bubbling up to the document
+    event.stopPropagation();
+    
+    // Toggle visibility of the search container
+    searchContainer.style.display = 'block';
+});
+
+// Close the search bar if user clicks anywhere outside of it or on the search icon
+document.addEventListener('click', function(event) {
+    if (!searchContainer.contains(event.target) && event.target !== searchIcon) {
+        searchContainer.style.display = 'none';
+    }
+});
+
+</script>
+</body>
+
+</html>

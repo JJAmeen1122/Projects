@@ -28,7 +28,7 @@ nav{
     background-image: url("JF.png");
     background-size: cover;
     border-radius: 75px;
-    margin-right: 150px;
+    margin-right: 350px;
     margin-top: 18px;
      
 }
@@ -39,7 +39,7 @@ nav{
     flex-wrap: wrap;
     justify-content: baseline;
     gap: 1.5rem;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: -300px;
     padding: 0;
 }
@@ -51,13 +51,13 @@ nav{
 .d-flex{
     justify-content: right;
 }
-.heading1{
+/* .heading1{
    
     padding: 0px 20px;
     height: 100px;
     width: 350px;
   
-}
+} */
 #the{
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -84,32 +84,61 @@ nav{
 .nav-links a:hover {
     color: #cfdef3;
 }
-
-.searchbar{
-    margin-top: 145px;
-    margin-left: 80px;
-    width: 450px;
-    text-align: right;
-    padding: 0px;
-}
-.search-input{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-
+.barbutton{
+    display: flex;
+    gap: 25px;
 }
 .signup{
     background-color: #fff;
     padding: 4px 8px;
-    border: 2px outset ;
+    height: 35px;
     font-size: 15px;
+    margin-top: 118px;
+    margin-left: 370px;
     /* text-decoration: none; */
     color: #333;
     font-weight: bold;
     border-radius: 10px;
-    margin: 5px;
+    /* margin: 5px; */
      
 }
+.search {
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 153px;
+    right: 33px;
+}
+.search i {
+    color: #fff5f5;
+}
+.mainsearch{
+    position: relative;
+    width: 100%;
+   
+}
+.search-container {
+    display: none; 
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+
 a:hover {
     color: gray;
 }
@@ -189,7 +218,7 @@ legend{
 .about-section {
     background: #333;
     padding: 2rem;
-    color: #fff;
+    color: #fff; 
     border-radius: 8px;
 }
 
@@ -198,6 +227,19 @@ legend{
     background: #111;
     padding: 2rem;
     border-radius: 8px;
+    display: flex;
+    gap: 30px;
+}
+
+.footericon h2{
+margin-bottom: 40px;
+font-size: 28px;
+}
+.iconss{
+    display: flex;
+    gap: 28px;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
 form {
@@ -206,7 +248,7 @@ form {
     text-align: left;
 }
 
-form input, form textarea, form button {
+form input, form textarea{
     width: 100%;
     padding: 0.7rem;
     margin-top: 0.5rem;
@@ -216,7 +258,9 @@ form input, form textarea, form button {
 
 form button {
     background: #ff4786;
-    width: 100%;
+    padding: 14px 295px;
+    margin-top: 25px;
+    border-radius: 5px;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
@@ -248,4 +292,44 @@ form button:hover {
     .album-card, .trend-card {
         margin: 1rem 0;
     }
+}
+
+
+
+
+/* Rating stars*/
+
+.ratingstar{
+    background-color: #111;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    margin-top: 16px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #f5b301;
 }
